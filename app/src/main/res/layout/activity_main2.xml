@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/coordinatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/txtViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#3F51B5"
+        android:backgroundTint="#673AB8"
+        android:text="Productos"
+        android:textAlignment="center"
+        android:textColor="#FFEB3B"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="7dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/txtViewTitle"
+        tools:layout_editor_absoluteX="56dp">
+
+        <ImageView
+            android:id="@+id/imageViewHombre"
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtViewHombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chaquetas para hombre"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtViewDescripHombre"
+                android:layout_width="match_parent"
+                android:layout_height="104dp"
+                android:text="Pronto encontraras la chaqueta de tus sueños en esta sección" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout3"
+        tools:layout_editor_absoluteX="56dp">
+
+        <ImageView
+            android:id="@+id/imageViewMujer"
+            android:layout_width="330dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtViewTitleMujer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chaquetas para Mujer"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtViewDescripMujer"
+                android:layout_width="match_parent"
+                android:layout_height="111dp"
+                android:text="Pronto encontraras la chaqueta de tus sueños
+" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout5"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4"
+        tools:layout_editor_absoluteX="56dp">
+
+        <ImageView
+            android:id="@+id/imageViewNinas"
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtViewNinas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chaquetas para Niños"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtViewDescripNinas"
+                android:layout_width="match_parent"
+                android:layout_height="104dp"
+                android:text="Pronto encontraras las chaqueta de tus sueños" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="match_parent"
+        android:layout_height="128dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout5"
+        tools:layout_editor_absoluteX="56dp">
+
+        <ImageView
+            android:id="@+id/imageViewNinos"
+            android:layout_width="326dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            tools:srcCompat="@tools:sample/avatars" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/txtTitleNinos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Chaquetas para Niños"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtViewDescripNinos"
+                android:layout_width="match_parent"
+                android:layout_height="104dp"
+                android:text="Pronto encontraras las chaqueta de tus sueños" />
+        </LinearLayout>
+    </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
